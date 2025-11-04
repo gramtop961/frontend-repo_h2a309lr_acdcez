@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Calendar, ShieldCheck, CreditCard, Mail, BarChart3, ChevronRight } from 'lucide-react';
+import { FeaturesSectionWithHoverEffects } from './FeaturesSectionWithHoverEffects';
 
 function Services() {
   const items = [
@@ -127,6 +128,9 @@ function TestimonialsAndFAQ() {
           ))}
         </div>
       </div>
+
+      {/* Inserted exactly as provided, directly under testimonials */}
+      <FeaturesSectionWithHoverEffects />
 
       <div id="faq" className="max-w-7xl mx-auto px-6 mt-16">
         <h2 className="text-2xl md:text-3xl font-semibold">Frequently Asked Questions</h2>
